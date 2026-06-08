@@ -5,3 +5,8 @@ variable "private_subnet_ids" {
 variable "db_sg" {
   type = string
 }
+
+variable "db_password" {
+  type      = string
+  sensitive = true
+}

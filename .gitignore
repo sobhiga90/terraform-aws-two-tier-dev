@@ -3,10 +3,14 @@
 *.tfstate
 *.tfstate.*
 *.tfplan
-
+terraform.tfvars
+crash.log
 # Private keys
 *.pem
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Terraform plan files
+*.tfplan

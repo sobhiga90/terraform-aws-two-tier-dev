@@ -21,4 +21,6 @@ module "rds" {
 
   private_subnet_ids = module.vpc.private_subnet_ids
   db_sg              = module.security.db_sg_id
+  db_password        = var.db_password
+  
 }
